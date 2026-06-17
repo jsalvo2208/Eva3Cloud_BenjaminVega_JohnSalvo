@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web_cruzazul:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - DB_HOST=cruzazul-db.c27god8ni5i4.us-east-1.rds.amazonaws.com
